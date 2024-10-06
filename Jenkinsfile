@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the latest code from Bitbucket
-                git branch: 'main', url: 'git@github.com:bharatgadhe/java.git'
+                git branch: 'main', url: 'git@github.com:bharatgadhe/java.git', credentialsId: '7cbbe4fb-3a87-4b05-b54c-bd48c5594898'
             }
         }
         

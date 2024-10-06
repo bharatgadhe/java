@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the latest code from Bitbucket
-                git branch: 'main', url: 'https://github.com/bharatgadhe/java.git'
+                git branch: 'master', url: 'https://github.com/bharatgadhe/java.git'
             }
         }
         
